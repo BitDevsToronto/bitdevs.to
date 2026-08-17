@@ -4,3 +4,4 @@ tagline: 'A Socratic seminar in Toronto for people interested in the research an
 menu:
   - {name: 'About', url: '/about'}
   - {name: 'Meetings', url: '/events'}
+  - {name: 'Cities', url: '/cities'}
