@@ -49,7 +49,7 @@ We further encourage you to start your own, beginning either by forking
 - [Tampa](https://www.bitcoinbay.foundation/bitdevs)
 - [Washington, D.C.](https://dcbitdevs.com/)
 
-### Overseas
+### Rest of the world
 
 - [Amsterdam](https://bitdevsamsterdam.org/)
 - [Athens](https://bitdevs-athens.com/)
