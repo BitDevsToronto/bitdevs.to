@@ -1,13 +1,17 @@
 .Home {
   &-about {
     font-size: 1.2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
   }
 
   &-posts {
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 
     &:last-child {
+      margin-bottom: 0;
+    }
+
+    p:last-child {
       margin-bottom: 0;
     }
 
