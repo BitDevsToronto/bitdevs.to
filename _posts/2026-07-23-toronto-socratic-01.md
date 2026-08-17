@@ -4,6 +4,7 @@ type: socratic
 date: "2026-07-23 18:30:00"
 title: "Toronto Socratic 001"
 luma: https://luma.com/xhxl4ajn
+description: "Discussion agenda for the Toronto Socratic Seminar on 23 July 2026, graciously hosted by BitDevs Vancouver."
 ---
 
 ## Announcements
