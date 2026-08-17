@@ -28,9 +28,9 @@ that you have a firm grasp of the basics of Bitcoin in order to extract the most
 value from our Socratic events.
 
 Please contact the organizers if you'd like to present at a future Socratic
-event or have a recommended topic for discussion: open an issue on
-[GitHub](https://github.com/BitDevsToronto/bitdevs.to/issues). There are
-different requirements for presentations depending on the nature of the project.
+event or have a recommended topic for discussion: bitdevstoronto at gmail. There
+are different requirements for presentations depending on the nature of the
+project.
 
 ### Whitepaper Series
 
@@ -48,8 +48,8 @@ doesn't have to be a whitepaper. In the case of widely-known topics (such as
 Elliptic Curve encryption) a chapter of a textbook, Wikipedia article, or other
 material can be suggested.
 
-To propose a topic to present or volunteer to present a paper, please open an
-issue on [GitHub](https://github.com/BitDevsToronto/bitdevs.to/issues).
+To propose a topic to present or volunteer to present a paper, please contact
+bitdevstoronto at gmail.
 
 ### Debate Series
 
