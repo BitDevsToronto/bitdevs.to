@@ -19,7 +19,8 @@ After a period of discussion, some events will have presentations of open source
 projects, companies, research and other relevant content. A feedback and Q&A
 section follow. After the event the group gathers at a nearby bar to socialize.
 
-Discussion topics are published on this site the day of the event. Archives of
+Discussion topics are published on this site before the start of the event.
+Archives of
 discussion topics and presentations can be found under
 [Meetings](/events). The discussion portion of the event is NEVER recorded, and
 we do not photograph attendees. Meetings run under the Chatham House rule: you
