@@ -1,0 +1,7 @@
+title: 'BitDevs Toronto'
+tagline: 'A Socratic seminar in Toronto for people interested in the research and development of Bitcoin and related protocols.'
+
+menu:
+  - {name: 'About', url: '/about'}
+  - {name: 'Meetings', url: '/events'}
+  - {name: 'BitDevs', url: 'https://bitdevs.org', external: true}

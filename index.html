@@ -1,0 +1,43 @@
+---
+layout: default
+title: Home
+---
+
+<div class="Home">
+  <p class="Home-about">
+    BitDevs Toronto is a Socratic seminar for people who want to talk about how Bitcoin actually works. We meet every two months to go through recent developments in Bitcoin protocol and software research. No talks, no slides, no pitches.
+  </p>
+
+  <div class="Home-posts">
+    <h2 class="Home-posts-title">Next meeting</h2>
+    <p>
+      Socratic Seminar #1 is planned for the end of September 2026 in Toronto.
+      The venue and exact date are being confirmed. Details will be posted here
+      once they are locked in.
+    </p>
+    <!-- TODO: add the Luma / Meetup signup link here once the event is created. -->
+  </div>
+
+  <div class="Home-posts">
+    <h2 class="Home-posts-title">Past meetings</h2>
+    {% assign counter = 0 %}
+    {% for post in site.posts %}
+      {% if post.type == "socratic" %}
+        <div class="Home-posts-post">
+          <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
+          <span class="Home-posts-post-arrow">&raquo;</span>
+          <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
+        </div>
+        {% assign counter = counter | plus: 1 %}
+        {% if counter == 7 %}
+          {% break %}
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+    {% if counter == 0 %}
+      <p>None yet. The first one has not happened.</p>
+    {% else %}
+      <p><a href="/events.html">See all meetings</a></p>
+    {% endif %}
+  </div>
+</div>
