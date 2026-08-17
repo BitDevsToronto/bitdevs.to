@@ -8,7 +8,7 @@ luma: https://luma.com/xhxl4ajn
 
 ## Announcements
 
-The first Toronto Socratic Seminar, graciously hosted by
+Graciously hosted by
 [BitDevs Vancouver](https://bitdevs.ca/2026-07-23-toronto-socratic-01).
 
 Today's MC: Leo
