@@ -10,21 +10,35 @@ title: Home
 
   <div class="Home-posts">
     <h2 class="Home-posts-title">Next meeting</h2>
-    <p>
-      The next Socratic Seminar is planned for the end of September 2026 in
-      Toronto. The venue and exact date are being confirmed. Details will be
-      posted here once they are locked in.
-    </p>
-    <!-- TODO: add the Luma / Meetup signup link here once the event is created. -->
+    {% assign next_meeting = nil %}
+    {% for post in site.posts reversed %}
+      {% if post.type == "socratic" and post.date > site.time and next_meeting == nil %}
+        {% assign next_meeting = post %}
+      {% endif %}
+    {% endfor %}
+    {% if next_meeting %}
+      <div class="Home-posts-post">
+        <span class="Home-posts-post-date">{% if next_meeting.date_display %}{{ next_meeting.date_display }}{% else %}{{ next_meeting.date | date_to_string }}{% endif %}</span>
+        <span class="Home-posts-post-arrow">&raquo;</span>
+        <a class="Home-posts-post-title" href="{{ next_meeting.url }}">{{ next_meeting.title }}</a>
+      </div>
+      <p>The exact date, time and venue are still being confirmed.</p>
+      <!-- TODO: add the Luma / Meetup signup link to the post front matter once the event is created. -->
+    {% else %}
+      <p>
+        No date is set for the next Socratic Seminar. Details will be posted
+        here once they are locked in.
+      </p>
+    {% endif %}
   </div>
 
   <div class="Home-posts">
     <h2 class="Home-posts-title">Past meetings</h2>
     {% assign counter = 0 %}
     {% for post in site.posts %}
-      {% if post.type == "socratic" %}
+      {% if post.type == "socratic" and post.date < site.time %}
         <div class="Home-posts-post">
-          <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
+          <span class="Home-posts-post-date">{% if post.date_display %}{{ post.date_display }}{% else %}{{ post.date | date_to_string }}{% endif %}</span>
           <span class="Home-posts-post-arrow">&raquo;</span>
           <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
         </div>
