@@ -1,31 +1,26 @@
 # BitDevs Toronto
 
-Source for [bitdevs.to](https://bitdevs.to).
-
-Forked from the [BitDevs NYC](https://github.com/BitDevsNYC/BitDevsNYC.github.io)
-site, which most BitDevs chapters use.
+Source for [bitdevs.to](https://bitdevs.to). Forked from
+[BitDevs NYC](https://github.com/BitDevsNYC/BitDevsNYC.github.io).
 
 ## Adding a meeting agenda
 
-1. Copy `_posts/_template.md` to `_posts/YYYY-MM-DD-socratic-seminar-NN.md`,
-   using the date of the meeting.
-2. Fill in the title, the venue, the times, and the signup link.
-3. Add the discussion items, mostly from the
-   [Bitcoin Optech](https://bitcoinops.org/en/newsletters/) newsletters since the
-   last meeting.
-4. Delete the `published: false` line so it appears on the site.
-5. Commit and push to `main`. The site rebuilds itself within a minute or two.
+Copy `_posts/_template.md` to `_posts/YYYY-MM-DD-toronto-socratic-NN.md`, fill it
+in, delete the `published: false` line, and push to `main`. The site rebuilds
+itself within a minute or two.
 
-Agendas can be published before the meeting and edited afterwards. Suggestions
-from attendees are welcome as pull requests.
+If the date is not settled yet, add `date_display: "September 2026"` and a
+`permalink:` without a day in it. Both override the date in the filename, which
+Jekyll requires but never shows.
+
+Agendas can go up before the meeting and be edited afterwards. Suggestions from
+attendees are welcome as pull requests.
 
 ## Changing the site itself
 
-- Site name, description, and menu: `_data/settings.yml` and `_config.yml`.
-  Some values appear in both, so change both.
-- Homepage text and the next-meeting notice: `index.html`.
-- About page: `about.md`.
-- Styling: `assets/css/`.
+Name, description and menu live in `_data/settings.yml` and `_config.yml`, and
+some values appear in both. Homepage text is `index.html`, the about page is
+`about.md`, styling is `assets/css/`.
 
 ## Running it locally
 
