@@ -3,12 +3,15 @@ layout: default
 title: About
 ---
 
+<h1 class="visually-hidden">About BitDevs Toronto</h1>
+
 BitDevs is a community for those interested in discussing and participating in
 the research and development of Bitcoin and related protocols. You can be well
 versed with or new to the topics, all are welcome. Be advised: discussion will
 be technical.
 
-### Socratic Seminars
+## Socratic Seminars
+{: .Section-title}
 
 Our Socratic Seminar events are formatted to foster debate, information sharing
 and lively discussion. In the weeks preceding the event, discussion topics are
@@ -33,7 +36,8 @@ event or have a recommended topic for discussion: bitdevstoronto at gmail. There
 are different requirements for presentations depending on the nature of the
 project.
 
-### Whitepaper Series
+## Whitepaper Series
+{: .Section-title}
 
 A journal club to discuss specific topics in the Bitcoin ecosystem. This is an
 academic-style journal club where one person chooses a topic or paper and
@@ -52,7 +56,8 @@ material can be suggested.
 To propose a topic to present or volunteer to present a paper, please contact
 bitdevstoronto at gmail.
 
-### Debate Series
+## Debate Series
+{: .Section-title}
 
 Our debate series is dedicated to the investigation of controversial technical
 topics. The structure of the event is dependent on the topic of interest.
