@@ -3,6 +3,8 @@ layout: default
 title: Cities
 ---
 
+<h1 class="visually-hidden">BitDevs Cities</h1>
+
 Bitcoin is a global phenomenon that appears differently depending on the lens it
 is viewed through. Each community provides its own unique lens, and to study
 Bitcoin means not only to carefully examine it, but also to change your angle,
@@ -21,13 +23,15 @@ We further encourage you to start your own, beginning either by forking
 [the original project](https://github.com/BitDevsNYC/BitDevsNYC.github.io/) or
 [our own](https://github.com/BitDevsToronto/bitdevs.to).
 
-### Canada
+## Canada
+{: .Section-title}
 
 - [Toronto](https://bitdevs.to/)
 - [Vancouver](https://bitdevs.ca/)
 - [Victoria](https://bitdevsvictoria.org/)
 
-### United States
+## United States
+{: .Section-title}
 
 - [Atlanta](https://atlbit.dev/)
 - [Austin](https://austinbitdevs.com/)
@@ -49,7 +53,8 @@ We further encourage you to start your own, beginning either by forking
 - [Tampa](https://www.bitcoinbay.foundation/bitdevs)
 - [Washington, D.C.](https://dcbitdevs.com/)
 
-### Rest of the world
+## Rest of the world
+{: .Section-title}
 
 - [Amsterdam](https://bitdevsamsterdam.org/)
 - [Athens](https://bitdevs-athens.com/)

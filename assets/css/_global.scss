@@ -68,3 +68,21 @@ h4 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
+// Headings that are read by Google and screen readers but not shown on screen
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+// Section headings keep their old size after moving from h3 to h2
+.Section-title {
+  font-size: 1.4rem;
+}

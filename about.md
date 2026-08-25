@@ -3,12 +3,15 @@ layout: default
 title: About
 ---
 
+<h1 class="visually-hidden">About BitDevs Toronto</h1>
+
 BitDevs is a community for those interested in discussing and participating in
 the research and development of Bitcoin and related protocols. You can be well
 versed with or new to the topics, all are welcome. Be advised: discussion will
 be technical.
 
-### Socratic Seminars
+## Socratic Seminars
+{: .Section-title}
 
 Our Socratic Seminar events are formatted to foster debate, information sharing
 and lively discussion. In the weeks preceding the event, discussion topics are
@@ -22,8 +25,8 @@ section follow. After the event the group gathers at a nearby bar to socialize.
 Discussion topics are published on this site before the start of the event.
 Archives of
 discussion topics and presentations can be found under
-[Meetings](/events). The discussion portion of the event is NEVER recorded, and
-we do not photograph attendees. Meetings run under the Chatham House rule: you
+[Events](/events). The discussion portion of the event is NEVER recorded, and
+we do not photograph attendees. Events run under the Chatham House rule: you
 are free to use what you hear, but not to say who said it. It is recommended
 that you have a firm grasp of the basics of Bitcoin in order to extract the most
 value from our Socratic events.
@@ -33,7 +36,8 @@ event or have a recommended topic for discussion: bitdevstoronto at gmail. There
 are different requirements for presentations depending on the nature of the
 project.
 
-### Whitepaper Series
+## Whitepaper Series
+{: .Section-title}
 
 A journal club to discuss specific topics in the Bitcoin ecosystem. This is an
 academic-style journal club where one person chooses a topic or paper and
@@ -52,7 +56,8 @@ material can be suggested.
 To propose a topic to present or volunteer to present a paper, please contact
 bitdevstoronto at gmail.
 
-### Debate Series
+## Debate Series
+{: .Section-title}
 
 Our debate series is dedicated to the investigation of controversial technical
 topics. The structure of the event is dependent on the topic of interest.

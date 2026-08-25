@@ -4,40 +4,71 @@ title: Home
 ---
 
 <div class="Home">
+  <h1 class="visually-hidden">BitDevs Toronto</h1>
+
   <p class="Home-about">
     BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols.
   </p>
 
+  {% comment %}
+    An event counts as upcoming until the end of the day it is held on, so it
+    stays under "Upcoming event" while it is happening and moves to "Past
+    events" the following day. site.time is the build time, so the nightly
+    rebuild in .github/workflows/refresh.yml is what makes the move happen.
+  {% endcomment %}
+  {% assign now = site.time | date: "%s" | plus: 0 %}
+
   <div class="Home-posts">
-    <h2 class="Home-posts-title">Next meeting</h2>
-    <p>
-      The next Socratic Seminar is planned for the end of September 2026 in
-      Toronto. The venue and exact date are being confirmed. Details will be
-      posted here once they are locked in.
-    </p>
-    <!-- TODO: add the Luma / Meetup signup link here once the event is created. -->
+    <h2 class="Home-posts-title">Upcoming event</h2>
+    {% assign next_event = nil %}
+    {% for post in site.posts reversed %}
+      {% assign day_end = post.date | date: "%Y-%m-%d 23:59:59" | date: "%s" | plus: 0 %}
+      {% if post.type == "socratic" and day_end > now and next_event == nil %}
+        {% assign next_event = post %}
+      {% endif %}
+    {% endfor %}
+    {% if next_event %}
+      <div class="Home-posts-post">
+        <span class="Home-posts-post-date">{% if next_event.date_display %}{{ next_event.date_display }}{% else %}{{ next_event.date | date_to_string }}{% endif %}</span>
+        <span class="Home-posts-post-arrow">&raquo;</span>
+        <a class="Home-posts-post-title" href="{{ next_event.url }}">{{ next_event.title }}</a>
+      </div>
+    {% else %}
+      <p>
+        The next Socratic Seminar is currently in the mempool. We&rsquo;ll
+        broadcast the details here once they&rsquo;re confirmed.
+      </p>
+    {% endif %}
   </div>
 
   <div class="Home-posts">
-    <h2 class="Home-posts-title">Past meetings</h2>
-    {% assign counter = 0 %}
+    <h2 class="Home-posts-title">Past events</h2>
+    {% assign past_total = 0 %}
     {% for post in site.posts %}
-      {% if post.type == "socratic" %}
+      {% assign day_end = post.date | date: "%Y-%m-%d 23:59:59" | date: "%s" | plus: 0 %}
+      {% if post.type == "socratic" and day_end <= now %}
+        {% assign past_total = past_total | plus: 1 %}
+      {% endif %}
+    {% endfor %}
+    {% assign shown = 0 %}
+    {% for post in site.posts %}
+      {% assign day_end = post.date | date: "%Y-%m-%d 23:59:59" | date: "%s" | plus: 0 %}
+      {% if post.type == "socratic" and day_end <= now %}
         <div class="Home-posts-post">
-          <span class="Home-posts-post-date">{{ post.date | date_to_string }}</span>
+          <span class="Home-posts-post-date">{% if post.date_display %}{{ post.date_display }}{% else %}{{ post.date | date_to_string }}{% endif %}</span>
           <span class="Home-posts-post-arrow">&raquo;</span>
           <a class="Home-posts-post-title" href="{{ post.url }}">{{ post.title }}</a>
         </div>
-        {% assign counter = counter | plus: 1 %}
-        {% if counter == 7 %}
+        {% assign shown = shown | plus: 1 %}
+        {% if shown == 7 %}
           {% break %}
         {% endif %}
       {% endif %}
     {% endfor %}
-    {% if counter == 0 %}
+    {% if past_total == 0 %}
       <p>None yet.</p>
-    {% else %}
-      <p><a href="/events.html">See all meetings</a></p>
+    {% elsif past_total > shown %}
+      <p><a href="/events.html">See all events</a></p>
     {% endif %}
   </div>
 </div>

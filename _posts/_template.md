@@ -13,13 +13,13 @@ luma: ""
 
 Doors open at TODO, discussion starts at TODO. Venue: TODO.
 
-This meeting runs under the Chatham House rule. Nothing is recorded and we do
+This event runs under the Chatham House rule. Nothing is recorded and we do
 not photograph attendees.
 
 ## Optech
 
 The agenda comes from the [Bitcoin Optech](https://bitcoinops.org/en/newsletters/)
-newsletters published since the last meeting.
+newsletters published since the last event.
 
 - <!--- [Newsletter #NNN](https://bitcoinops.org/en/newsletters/YYYY/MM/DD/) --->
 

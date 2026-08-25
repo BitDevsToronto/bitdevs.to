@@ -1,0 +1,23 @@
+# The homepage decides which event is upcoming by comparing event dates to
+# the build time, and GitHub Pages only rebuilds when something is pushed. This
+# rebuilds the site once a night so an event moves itself into "Past events"
+# the day after it is held, without anyone having to push a commit.
+name: Nightly rebuild
+
+on:
+  schedule:
+    # 07:10 UTC is a little after 03:00 in Toronto, year round.
+    - cron: "10 7 * * *"
+  workflow_dispatch:
+
+permissions:
+  pages: write
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ask GitHub Pages to rebuild the site
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh api -X POST "repos/${GITHUB_REPOSITORY}/pages/builds"
