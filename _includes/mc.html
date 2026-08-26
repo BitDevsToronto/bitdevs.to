@@ -1,0 +1,2 @@
+{%- assign mcs = include.names | split: "," -%}
+Today's MC{% if mcs.size > 1 %}s{% endif %}: {% for mc in mcs %}{{ mc | strip }}{% unless forloop.last %}{% if forloop.rindex == 2 %} & {% else %}, {% endif %}{% endunless %}{% endfor %}

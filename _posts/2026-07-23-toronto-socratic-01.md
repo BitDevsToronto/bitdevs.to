@@ -12,7 +12,7 @@ description: "Discussion agenda for the Toronto Socratic Seminar on 23 July 2026
 Graciously hosted by
 [BitDevs Vancouver](https://bitdevs.ca/2026-07-23-toronto-socratic-01).
 
-Today's MC: Leo
+{% include mc.html names="Leo" %}
 
 ## bitcoin-dev
 
