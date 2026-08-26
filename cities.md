@@ -23,6 +23,8 @@ We further encourage you to start your own, beginning either by forking
 [the original project](https://github.com/BitDevsNYC/BitDevsNYC.github.io/) or
 [our own](https://github.com/BitDevsToronto/bitdevs.to).
 
+[Map view of all locations](https://www.bitdevsmap.org/#/)
+
 ## Canada
 {: .Section-title}
 
