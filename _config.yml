@@ -12,6 +12,14 @@ title: "BitDevs Toronto"
 description: "BitDevs is a community for those interested in discussing and participating in the research and development of Bitcoin and related protocols."
 url: "https://bitdevs.to"
 timezone: America/Toronto
+
+# Picture shown when a link to the site is posted anywhere. Any page can
+# override it by setting its own image: in the front matter.
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/img/card.jpg
 author: "BitDevs Toronto"
 
 # Leave out some files
