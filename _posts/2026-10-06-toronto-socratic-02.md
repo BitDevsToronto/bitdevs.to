@@ -18,7 +18,7 @@ A special thank you to our sponsors [Bitcoin Bay](https://bitcoinbay.ca) for
 providing the venue and [Lygos Finance](https://lygos.finance) for funding the
 website domain.
 
-{% include mc.html names="Eliza, Tony" %}
+{% include mc.html names="James, Lizzie, Tony" %}
 
 ## bitcoin-dev
 
