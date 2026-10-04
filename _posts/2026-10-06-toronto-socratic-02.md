@@ -84,6 +84,7 @@ website domain.
 ## Token Layer
 
 - [Liquid Network Security Incident Assessment](https://blog.blockstream.com/liquid-network-security-incident-assessment/)
+- [How the Liquid Network Hack Worked: The Range Proof Cache Bug (interactive explainer, 7 Sep, before the postmortem)](https://drop.amboss.tech/liquid-rangeproof-explainer.html)
 - [mononaut: the fix for the first rangeproof bug introduced the one that was exploited](https://x.com/mononautical/status/2096928595432374706)
 - [Attacker's ~4,000 BTC self-send with an OP_RETURN note to Blockstream](https://mempool.space/tx/83825b2135dd0abac12c9dfe17f29ab81b3427e1ae864947b0bebce5e47c3c4b?mode=details)
 - [Elements rangeproof-cache collision reproducer](https://gist.github.com/Sjors/ca9e796a11efd841414cd711aa36eba6)
