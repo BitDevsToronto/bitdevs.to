@@ -107,11 +107,6 @@ website domain.
 - [LNP2PBot shuts down](https://x.com/negrunch/status/2097763741123166576)
 - [Swiss Bitcoin Pay goes offline](https://x.com/SwissBitcoinPay/status/2099473448162488618)
 
-## Events and Podcasts
-
-- [Bitcoin Self Custody in the Age of AI w/ SeedSigner & HRF, PubKey NYC](https://www.youtube.com/watch?v=Q5HPHWOpiSA)
-- [COIN BASED: BRCA, Liquid Hack, Red Team Update](https://www.youtube.com/live/om95Recdlsk)
-
 ## Miscellaneous
 
 - [How did man recover £3.3m Bitcoin 'lost' for decade?](https://businesscloud.co.uk/news/how-did-man-recover-33-bitcoin-lost-for-decade/)
