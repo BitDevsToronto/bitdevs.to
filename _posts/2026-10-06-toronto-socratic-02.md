@@ -78,15 +78,14 @@ website domain.
 
 ## Mining
 
-- [DATUM Gateway: decentralized block template creation for true solo mining](https://github.com/CONVOYMining/datum_gateway)
+- [CONVOY's DATUM Gateway fork: BLAKE2b mining for the Knots PoW hard fork](https://github.com/CONVOYMining/datum_gateway)
 - [River has sued Blockstream Services Canada over bitcoin mining services](https://protos.com/river-has-sued-blockstream-services-canada-over-bitcoin-mining-services/)
 
 ## Token Layer
 
 - [Liquid Network Security Incident Assessment](https://blog.blockstream.com/liquid-network-security-incident-assessment/)
-- [How the Liquid Network Hack Worked: The Range Proof Cache Bug](https://drop.amboss.tech/liquid-rangeproof-explainer.html)
-- [mononaut on the exploit and the whitehat peg-out OP_RETURN](https://x.com/mononautical/status/2096928595432374706)
-- [4,000 BTC whitehat peg-out transaction](https://mempool.space/tx/83825b2135dd0abac12c9dfe17f29ab81b3427e1ae864947b0bebce5e47c3c4b?mode=details)
+- [mononaut: the fix for the first rangeproof bug introduced the one that was exploited](https://x.com/mononautical/status/2096928595432374706)
+- [Attacker's ~4,000 BTC self-send with an OP_RETURN note to Blockstream](https://mempool.space/tx/83825b2135dd0abac12c9dfe17f29ab81b3427e1ae864947b0bebce5e47c3c4b?mode=details)
 - [Elements rangeproof-cache collision reproducer](https://gist.github.com/Sjors/ca9e796a11efd841414cd711aa36eba6)
 - [Citrea pausing the chain](https://x.com/citrea_xyz/status/2097692050389110982)
 
@@ -98,7 +97,7 @@ website domain.
 
 ## New Releases
 
-- [Bitcoin Core 32.0rc2](https://groups.google.com/g/bitcoindev/c/qmAyi-cryvE)
+- [Bitcoin Core 32.0rc3](https://github.com/bitcoin/bitcoin/releases/tag/v32.0rc3)
 - [The Nakamoto Project](https://gettingbitcoin.org/)
 - [Decentralized Search](https://search.curtisheinen.com/)
 - [DITTA: federated web search protocol with Lightning payment](https://github.com/ditta-protocol/ditta-spec)
@@ -110,7 +109,7 @@ website domain.
 
 ## Events and Podcasts
 
-- [Bitcoin Self Custody in the Age of AI w/ SeedSigner & HRF, PubKey NYC](https://luma.com/pubkey-h7b7)
+- [Bitcoin Self Custody in the Age of AI w/ SeedSigner & HRF, PubKey NYC](https://www.youtube.com/watch?v=Q5HPHWOpiSA)
 - [COIN BASED: BRCA, Liquid Hack, Red Team Update](https://www.youtube.com/live/om95Recdlsk)
 
 ## Miscellaneous
