@@ -20,6 +20,15 @@ website domain.
 
 {% include mc.html names="James, Lizzie, Tony" %}
 
+## Chain Weather Report
+
+- [Clark Moody Dashboard](https://dashboard.clarkmoody.com/)
+- [Mempool](https://mempool.space/graphs/mempool#1m)
+- [Hashrate & Difficulty](https://mempool.space/graphs/mining/hashrate-difficulty#1y)
+- [Block Fee Rates](https://mempool.space/graphs/mining/block-fee-rates#1m)
+- [Block Rewards 1m](https://mempool.space/graphs/mining/block-rewards#1m)
+- [UTXO Spend Age](https://mainnet.observer/charts/utxoset-spend-age/)
+
 ## bitcoin-dev
 
 - [SHRINCS: A Compact Hash-Based Signature Scheme](https://github.com/SHRINCS/shrincs-bip/blob/main/SHRINCS.md)
